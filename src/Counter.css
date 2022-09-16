@@ -1,0 +1,38 @@
+.project-name,
+.counter {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-value {
+  font-size: 30px;
+}
+
+.count-btn {
+  color: white;
+  margin: 20px;
+  height: 50px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.count-btn:hover {
+  cursor: pointer;
+}
+
+.btn-inc {
+  background-color: green;
+}
+
+.btn-dec {
+  background-color: rgb(171, 0, 0);
+}
